@@ -13,6 +13,7 @@
             objRep.AverageAge(objListOfPersonsInCity);
             objRep.SpecificName_PresentOrNot(objListOfPersonsInCity, "John");
             objRep.SkipAgeLessThanSixty(objListOfPersonsInCity);
+            objRep.RemoveSpecificName(objListOfPersonsInCity, "Sue");
         }
     }
 }
